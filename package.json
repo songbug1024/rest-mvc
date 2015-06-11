@@ -1,0 +1,28 @@
+{
+  "name": "rest-mvc",
+  "version": "1.0.0",
+  "description": "A MVC framework based on Backbone.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "underscore": "^1.8.3",
+    "jquery": "^2.1.4",
+    "backbone": "^1.1.2"
+  },
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slevp/rest-mvc"
+  },
+  "keywords": [
+    "mvc"
+  ],
+  "author": "slevp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slevp/rest-mvc/issues"
+  },
+  "homepage": "https://github.com/slevp/rest-mvc"
+}
