@@ -45,6 +45,8 @@ RestMVC.plugin = function (name) {
       return require('./plugins/rest-url');
     case 'ionic':
       return require('./plugins/ionic');
+    case 'util':
+      return require('./plugins/util');
   }
 }
 
